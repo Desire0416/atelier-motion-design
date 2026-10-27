@@ -1,0 +1,12 @@
+{
+  "source": "voix.mp3",
+  "avant": 0.3,
+  "coupes": [
+    { "a": 7.73, "ajouter": 2.6, "pourquoi": "gag muet : le pot se retourne, l'étiquette est vide" },
+    { "a": 14.88, "ajouter": 0.5, "pourquoi": "bascule au noir : l'impact avant « Il est temps de savoir »" },
+    { "a": 16.29, "ajouter": 1.3, "pourquoi": "bascule : le fil doré, puis le monde clair" },
+    { "a": 25.07, "ajouter": 0.4, "pourquoi": "respiration avant la marque" }
+  ],
+  "traine": 4.54,
+  "fondu_ms": 5
+}

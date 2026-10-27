@@ -1,26 +1,31 @@
 # 3. Voix — Yéla, le karité qui dit d'où il vient
 
-> Le dépôt ne contient **pas** de voix pour ce film d'exemple : `minutage.json` a été écrit à la main
-> pour montrer le format. Pour l'entendre avec une voix, enregistrez la version voix de SCRIPT.md
-> (ou générez-la), déposez-la ici sous le nom `voix.mp3`, puis suivez les trois commandes ci-dessous.
+## La voix
 
-## Ce qu'on ferait avec une vraie prise
+- **Chemin** : voix de synthèse ElevenLabs, voix **Ingrid**, modèle **Eleven v4**, réglages par défaut.
+- **Texte** : la version voix de SCRIPT.md, telle quelle, avec trois balises de jeu (`[warmly]` sur la solution et la signature, `[softly]` sur « Tu l'ouvres… tu sais »).
+- **Prises** : deux prises entières de 29,3 et 29,4 s.
+- **Prise retenue** : la seconde. Les deux prises ont été transcrites par Whisper et comparées au texte ; dans la seconde, « Mercredi » et « préparé » sont les plus nets, « Korhogo » est correct dans les deux.
+- **Droits** : formule ElevenLabs payante (usage commercial autorisé). Le fichier de la voix n'est pas versionné dans le dépôt ; déposez votre propre prise sous le nom `voix.mp3` pour refaire l'exercice.
 
-1. `npm run silences -- yela-exemple`
-2. Dans `montage.json`, trois coupes :
+## Le montage (`montage.json`)
 
-| Coupe après | Silence ajouté | Pourquoi |
+| Coupe à (voix brute) | Silence ajouté | Pourquoi |
 |---|---|---|
-| « personne ne sait. » | +2,6 s | gag muet (le pot se retourne) |
-| « Et quand. » | +1,2 s | bascule au noir |
-| « tu sais. » | +0,4 s | respiration avant la marque |
+| 7,73 s | +2,6 s | gag muet : le pot se retourne, l'étiquette est vide |
+| 14,88 s | +0,5 s | bascule : l'impact avant « Il est temps de savoir » |
+| 16,29 s | +1,3 s | bascule : le fil doré, puis le monde clair |
+| 25,07 s | +0,4 s | respiration avant la marque |
 
-3. `npm run montage -- yela-exemple` → `voix-montee.wav`
-4. `npm run minutage -- yela-exemple` → remplace `minutage.json` (gardez une copie de l'exemple si besoin).
+Avant la première phrase : 0,3 s. Traîne de fin : 4,54 s, pour que la voix montée retombe exactement sur 39 s.
 
-Le film prend alors la durée de la voix montée et les sous-titres suivent les vrais mots.
+## Le minutage (`minutage.json`)
 
-## Le minutage d'exemple
+- 85 mots minutés par Whisper, avec le texte de SCRIPT.md comme indice d'orthographe.
+- Corrigés à la main : « carité » → « karité », la virgule avant « Découvre » remise en point, et le début de « Lundi », que la reconnaissance plaçait à 0 s au lieu de 0,33 s.
 
-- Durée : 39 s (traîne de fin comprise).
-- Silences qui deviennent des plans : 7,53 → 10,30 s (gag muet) et 19,57 → 21,20 s (fin de la bascule).
+## Le film se cale sur la voix
+
+Film.tsx ne contient aucun temps écrit à la main : chaque plan et chaque arrivée s'appuient sur un **repère** (`repere(minutage, "Korhogo")`), l'instant où le mot est prononcé. Une nouvelle prise, une fois montée et minutée, recale le film toute seule.
+
+Repères principaux : gag muet 7,9 → 10,4 s · diagnostic 10,4 → 18,1 s · bascule 18,1 → 21,2 s · solution 21,2 → 29,8 s · marque 29,8 → 39 s.

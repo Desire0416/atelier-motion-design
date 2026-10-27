@@ -1,466 +1,486 @@
 {
-  "duree": 39,
-  "source": "exemple (pas de voix fournie)",
+  "duree": 39.0,
+  "source": "voix-montee.wav — voix Ingrid (ElevenLabs v4), mots corrigés à la main",
+  "moteur": "openai-whisper (small)",
   "mots": [
     {
       "mot": "Lundi,",
-      "debut": 0.3,
-      "fin": 0.623
+      "debut": 0.33,
+      "fin": 0.74
     },
     {
       "mot": "tu",
-      "debut": 0.651,
-      "fin": 0.813
+      "debut": 0.75,
+      "fin": 1.08
     },
     {
       "mot": "achètes",
-      "debut": 0.827,
-      "fin": 1.257
+      "debut": 1.08,
+      "fin": 1.34
     },
     {
       "mot": "du",
-      "debut": 1.295,
-      "fin": 1.456
+      "debut": 1.34,
+      "fin": 1.54
     },
     {
       "mot": "beurre",
-      "debut": 1.47,
-      "fin": 1.847
+      "debut": 1.54,
+      "fin": 1.74
     },
     {
       "mot": "de",
-      "debut": 1.88,
-      "fin": 2.041
+      "debut": 1.74,
+      "fin": 1.82
     },
     {
       "mot": "karité",
-      "debut": 2.055,
-      "fin": 2.432
+      "debut": 1.82,
+      "fin": 2.18
     },
     {
       "mot": "au",
-      "debut": 2.465,
-      "fin": 2.626
+      "debut": 2.18,
+      "fin": 2.32
     },
     {
       "mot": "marché.",
-      "debut": 2.64,
-      "fin": 3.017
+      "debut": 2.32,
+      "fin": 2.6
     },
     {
       "mot": "Mardi,",
-      "debut": 3.4,
-      "fin": 3.733
+      "debut": 3.28,
+      "fin": 3.58
     },
     {
       "mot": "tu",
-      "debut": 3.762,
-      "fin": 3.928
+      "debut": 3.76,
+      "fin": 4.14
     },
     {
       "mot": "te",
-      "debut": 3.943,
-      "fin": 4.109
+      "debut": 4.14,
+      "fin": 4.3
     },
     {
       "mot": "demandes",
-      "debut": 4.124,
-      "fin": 4.623
+      "debut": 4.3,
+      "fin": 4.62
     },
     {
       "mot": "d'où",
-      "debut": 4.666,
-      "fin": 4.888
+      "debut": 4.62,
+      "fin": 4.76
     },
     {
       "mot": "il",
-      "debut": 4.907,
-      "fin": 5.074
+      "debut": 4.76,
+      "fin": 4.86
     },
     {
       "mot": "vient.",
-      "debut": 5.088,
-      "fin": 5.421
+      "debut": 4.86,
+      "fin": 5.12
     },
     {
-      "mot": "Mercredi...",
-      "debut": 5.8,
-      "fin": 6.26
+      "mot": "Mercredi…",
+      "debut": 6.32,
+      "fin": 7.04
     },
     {
       "mot": "personne",
-      "debut": 6.75,
-      "fin": 7.14
+      "debut": 7.04,
+      "fin": 7.28
     },
     {
       "mot": "ne",
-      "debut": 7.174,
-      "fin": 7.303
+      "debut": 7.28,
+      "fin": 7.58
     },
     {
       "mot": "sait.",
-      "debut": 7.315,
-      "fin": 7.531
+      "debut": 7.58,
+      "fin": 7.76
     },
     {
       "mot": "Le",
-      "debut": 10.3,
-      "fin": 10.458
+      "debut": 10.6,
+      "fin": 11.02
     },
     {
       "mot": "problème,",
-      "debut": 10.472,
-      "fin": 10.947
+      "debut": 11.02,
+      "fin": 11.38
     },
     {
       "mot": "ce",
-      "debut": 10.988,
-      "fin": 11.147
+      "debut": 11.42,
+      "fin": 11.84
     },
     {
       "mot": "n'est",
-      "debut": 11.16,
-      "fin": 11.424
+      "debut": 11.84,
+      "fin": 11.96
     },
     {
       "mot": "pas",
-      "debut": 11.447,
-      "fin": 11.658
+      "debut": 11.96,
+      "fin": 12.12
     },
     {
       "mot": "le",
-      "debut": 11.676,
-      "fin": 11.835
+      "debut": 12.12,
+      "fin": 12.22
     },
     {
       "mot": "karité.",
-      "debut": 11.849,
-      "fin": 12.218
+      "debut": 12.22,
+      "fin": 12.6
     },
     {
       "mot": "C'est",
-      "debut": 12.5,
-      "fin": 12.795
+      "debut": 13.22,
+      "fin": 13.28
     },
     {
       "mot": "tout",
-      "debut": 12.82,
-      "fin": 13.115
+      "debut": 13.28,
+      "fin": 13.54
     },
     {
       "mot": "ce",
-      "debut": 13.141,
-      "fin": 13.317
+      "debut": 13.54,
+      "fin": 13.66
     },
     {
       "mot": "qu'on",
-      "debut": 13.333,
-      "fin": 13.627
+      "debut": 13.66,
+      "fin": 13.78
     },
     {
       "mot": "ne",
-      "debut": 13.653,
-      "fin": 13.83
+      "debut": 13.78,
+      "fin": 13.88
     },
     {
       "mot": "te",
-      "debut": 13.845,
-      "fin": 14.022
+      "debut": 13.88,
+      "fin": 13.96
     },
     {
       "mot": "dit",
-      "debut": 14.037,
-      "fin": 14.273
+      "debut": 13.96,
+      "fin": 14.08
     },
     {
       "mot": "pas.",
-      "debut": 14.294,
-      "fin": 14.529
+      "debut": 14.08,
+      "fin": 14.28
     },
     {
       "mot": "D'où",
-      "debut": 14.9,
-      "fin": 15.104
+      "debut": 14.71,
+      "fin": 14.94
     },
     {
       "mot": "vient",
-      "debut": 15.122,
-      "fin": 15.429
+      "debut": 14.94,
+      "fin": 15.14
     },
     {
       "mot": "la",
-      "debut": 15.456,
-      "fin": 15.609
+      "debut": 15.14,
+      "fin": 15.26
     },
     {
       "mot": "noix.",
-      "debut": 15.622,
-      "fin": 15.878
+      "debut": 15.26,
+      "fin": 15.52
     },
     {
       "mot": "Qui",
-      "debut": 16.2,
-      "fin": 16.384
+      "debut": 15.94,
+      "fin": 16.08
     },
     {
       "mot": "l'a",
-      "debut": 16.4,
-      "fin": 16.538
+      "debut": 16.08,
+      "fin": 16.24
     },
     {
       "mot": "transformée.",
-      "debut": 16.55,
-      "fin": 17.102
+      "debut": 16.24,
+      "fin": 16.84
     },
     {
       "mot": "Et",
-      "debut": 17.4,
-      "fin": 17.538
+      "debut": 17.2,
+      "fin": 17.28
     },
     {
       "mot": "quand.",
-      "debut": 17.55,
-      "fin": 17.826
+      "debut": 17.28,
+      "fin": 17.5
     },
     {
       "mot": "Il",
-      "debut": 18.3,
-      "fin": 18.456
+      "debut": 18.54,
+      "fin": 18.64
     },
     {
       "mot": "est",
-      "debut": 18.47,
-      "fin": 18.678
+      "debut": 18.64,
+      "fin": 18.78
     },
     {
       "mot": "temps",
-      "debut": 18.696,
-      "fin": 19.008
+      "debut": 18.78,
+      "fin": 18.94
     },
     {
       "mot": "de",
-      "debut": 19.035,
-      "fin": 19.191
+      "debut": 18.94,
+      "fin": 19.04
     },
     {
       "mot": "savoir.",
-      "debut": 19.204,
-      "fin": 19.568
+      "debut": 19.04,
+      "fin": 19.3
     },
     {
       "mot": "Chez",
       "debut": 21.2,
-      "fin": 21.446
+      "fin": 21.42
     },
     {
       "mot": "Yéla,",
-      "debut": 21.467,
-      "fin": 21.713
+      "debut": 21.42,
+      "fin": 21.7
     },
     {
       "mot": "chaque",
-      "debut": 21.735,
-      "fin": 22.079
+      "debut": 22.03,
+      "fin": 22.28
     },
     {
       "mot": "pot",
-      "debut": 22.109,
-      "fin": 22.306
+      "debut": 22.28,
+      "fin": 22.54
     },
     {
       "mot": "raconte",
-      "debut": 22.323,
-      "fin": 22.717
+      "debut": 22.54,
+      "fin": 22.86
     },
     {
       "mot": "son",
-      "debut": 22.751,
-      "fin": 22.948
+      "debut": 22.86,
+      "fin": 23.02
     },
     {
-      "mot": "karité",
-      "debut": 22.965,
-      "fin": 23.31
+      "mot": "karité.",
+      "debut": 23.02,
+      "fin": 23.44
     },
     {
-      "mot": ":",
-      "debut": 23.34,
-      "fin": 23.487
-    },
-    {
-      "mot": "la",
-      "debut": 23.7,
-      "fin": 23.893
+      "mot": "La",
+      "debut": 23.94,
+      "fin": 24.04
     },
     {
       "mot": "ville",
-      "debut": 23.91,
-      "fin": 24.296
+      "debut": 24.04,
+      "fin": 24.18
     },
     {
       "mot": "de",
-      "debut": 24.33,
-      "fin": 24.523
+      "debut": 24.18,
+      "fin": 24.34
     },
     {
       "mot": "Korhogo,",
-      "debut": 24.54,
-      "fin": 25.055
+      "debut": 24.34,
+      "fin": 24.76
     },
     {
       "mot": "les",
-      "debut": 25.3,
-      "fin": 25.47
+      "debut": 24.84,
+      "fin": 25.28
     },
     {
       "mot": "mains",
-      "debut": 25.485,
-      "fin": 25.741
+      "debut": 25.28,
+      "fin": 25.46
     },
     {
       "mot": "qui",
-      "debut": 25.763,
-      "fin": 25.933
+      "debut": 25.46,
+      "fin": 25.64
     },
     {
       "mot": "l'ont",
-      "debut": 25.948,
-      "fin": 26.161
+      "debut": 25.64,
+      "fin": 25.76
     },
     {
       "mot": "préparé,",
-      "debut": 26.18,
-      "fin": 26.52
+      "debut": 25.76,
+      "fin": 26.26
     },
     {
       "mot": "la",
-      "debut": 26.75,
-      "fin": 26.888
+      "debut": 26.68,
+      "fin": 26.76
     },
     {
       "mot": "date",
-      "debut": 26.9,
-      "fin": 27.13
+      "debut": 26.76,
+      "fin": 27.0
     },
     {
       "mot": "de",
-      "debut": 27.15,
-      "fin": 27.288
+      "debut": 27.0,
+      "fin": 27.14
     },
     {
       "mot": "fabrication.",
-      "debut": 27.3,
-      "fin": 27.852
+      "debut": 27.14,
+      "fin": 27.5
     },
     {
       "mot": "Tu",
-      "debut": 28.3,
-      "fin": 28.451
+      "debut": 28.14,
+      "fin": 28.3
     },
     {
-      "mot": "l'ouvres...",
-      "debut": 28.464,
-      "fin": 28.865
+      "mot": "l'ouvres…",
+      "debut": 28.3,
+      "fin": 29.12
     },
     {
       "mot": "tu",
-      "debut": 29.3,
-      "fin": 29.507
+      "debut": 29.12,
+      "fin": 29.3
     },
     {
       "mot": "sais.",
-      "debut": 29.525,
-      "fin": 29.87
+      "debut": 29.3,
+      "fin": 29.54
     },
     {
-      "mot": "Yéla.",
-      "debut": 30.5,
-      "fin": 30.96
+      "mot": "Yéla,",
+      "debut": 30.37,
+      "fin": 30.72
     },
     {
-      "mot": "Le",
-      "debut": 31.25,
-      "fin": 31.415
+      "mot": "le",
+      "debut": 31.1,
+      "fin": 31.22
     },
     {
       "mot": "karité",
-      "debut": 31.429,
-      "fin": 31.813
+      "debut": 31.22,
+      "fin": 31.68
     },
     {
       "mot": "qui",
-      "debut": 31.847,
-      "fin": 32.066
+      "debut": 31.68,
+      "fin": 31.9
     },
     {
       "mot": "dit",
-      "debut": 32.085,
-      "fin": 32.305
+      "debut": 31.9,
+      "fin": 32.14
     },
     {
       "mot": "d'où",
-      "debut": 32.324,
-      "fin": 32.544
+      "debut": 32.14,
+      "fin": 32.3
     },
     {
       "mot": "il",
-      "debut": 32.563,
-      "fin": 32.728
+      "debut": 32.3,
+      "fin": 32.4
     },
     {
       "mot": "vient.",
-      "debut": 32.742,
-      "fin": 33.071
+      "debut": 32.4,
+      "fin": 32.64
     },
     {
       "mot": "Découvre",
-      "debut": 33.4,
-      "fin": 33.91
+      "debut": 32.97,
+      "fin": 33.44
     },
     {
       "mot": "la",
-      "debut": 33.954,
-      "fin": 34.124
+      "debut": 33.44,
+      "fin": 33.56
     },
     {
       "mot": "boutique",
-      "debut": 34.138,
-      "fin": 34.648
+      "debut": 33.56,
+      "fin": 33.9
     },
     {
       "mot": "Yéla.",
-      "debut": 34.692,
-      "fin": 34.975
+      "debut": 33.9,
+      "fin": 34.24
     }
   ],
   "silences": [
     {
-      "debut": 6.26,
-      "fin": 6.75
+      "debut": 2.6,
+      "fin": 3.28
     },
     {
-      "debut": 7.531,
-      "fin": 10.3
+      "debut": 5.12,
+      "fin": 6.32
     },
     {
-      "debut": 17.826,
-      "fin": 18.3
+      "debut": 7.76,
+      "fin": 10.6
     },
     {
-      "debut": 19.568,
+      "debut": 12.6,
+      "fin": 13.22
+    },
+    {
+      "debut": 14.28,
+      "fin": 14.71
+    },
+    {
+      "debut": 15.52,
+      "fin": 15.94
+    },
+    {
+      "debut": 17.5,
+      "fin": 18.54
+    },
+    {
+      "debut": 19.3,
       "fin": 21.2
     },
     {
-      "debut": 27.852,
-      "fin": 28.3
+      "debut": 23.44,
+      "fin": 23.94
     },
     {
-      "debut": 28.865,
-      "fin": 29.3
+      "debut": 26.26,
+      "fin": 26.68
     },
     {
-      "debut": 29.87,
-      "fin": 30.5
+      "debut": 27.5,
+      "fin": 28.14
+    },
+    {
+      "debut": 29.54,
+      "fin": 30.37
+    },
+    {
+      "debut": 34.24,
+      "fin": 39.0
     }
   ]
 }

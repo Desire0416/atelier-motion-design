@@ -14,6 +14,17 @@ Les tailles se multiplient par `u` (`useFormat()`), qui vaut 1 en 1080 de petit 
 | `borner(v, min?, max?)` | limite une valeur |
 | `useFormat()` | `{ largeur, hauteur, u, portrait, paysage }` |
 
+## Repères de la voix (caler l'image sur les mots)
+
+```tsx
+const chez = repere(minutage, "Chez");                          // début du mot, en secondes
+const finSait = repere(minutage, "sait", { fin: true });        // fin du mot
+const signature = repere(minutage, "Yéla", { apres: 29 });      // première occurrence après 29 s
+const mots = motsDe(minutage, "le karité qui dit", signature);  // une suite de mots (pour TexteCinetique `instants`)
+```
+
+Accents, majuscules et ponctuation sont ignorés. Écrivez les plans et les arrivées avec ces repères plutôt qu'avec des secondes recopiées : une nouvelle prise, une fois montée et minutée, recale le film toute seule (voir `films/yela-exemple/Film.tsx`). Un repère introuvable arrête le rendu avec un message : corrigez le mot dans `minutage.json`.
+
 ## Structure
 
 ```tsx

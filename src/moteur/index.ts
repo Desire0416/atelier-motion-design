@@ -7,6 +7,7 @@ export { Camera, etatCamera, type EtatCamera, type Mouvement } from "./Camera";
 export { Arrivee, Sortie } from "./Arrivee";
 export { TexteCinetique } from "./TexteCinetique";
 export { SousTitres, grouperMots } from "./SousTitres";
+export { motsDe, repere } from "./reperes";
 export { Fond } from "./Fond";
 export { Voix, Musique, Bruitage, fichierExiste } from "./Son";
 export { chargerPolice, policesAtelier } from "./polices";
