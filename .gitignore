@@ -1,0 +1,24 @@
+# Dépendances et caches
+node_modules/
+.remotion/
+__pycache__/
+
+# Rendus et fichiers de travail volumineux (on partage les films par lien)
+rendus/
+films/*/images/
+films/*/*.wav
+films/*/*.mp3
+films/*/*.m4a
+
+# Musiques sous licence : à garder chez vous, jamais dans un dépôt public
+films/*/musique/
+
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Jamais de clé ni de mot de passe dans le dépôt
+.env
+.env.*

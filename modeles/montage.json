@@ -1,0 +1,7 @@
+{
+  "source": "voix.mp3",
+  "avant": 0.3,
+  "coupes": [],
+  "traine": 4.0,
+  "fondu_ms": 5
+}

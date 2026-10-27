@@ -1,0 +1,466 @@
+{
+  "duree": 39,
+  "source": "exemple (pas de voix fournie)",
+  "mots": [
+    {
+      "mot": "Lundi,",
+      "debut": 0.3,
+      "fin": 0.623
+    },
+    {
+      "mot": "tu",
+      "debut": 0.651,
+      "fin": 0.813
+    },
+    {
+      "mot": "achètes",
+      "debut": 0.827,
+      "fin": 1.257
+    },
+    {
+      "mot": "du",
+      "debut": 1.295,
+      "fin": 1.456
+    },
+    {
+      "mot": "beurre",
+      "debut": 1.47,
+      "fin": 1.847
+    },
+    {
+      "mot": "de",
+      "debut": 1.88,
+      "fin": 2.041
+    },
+    {
+      "mot": "karité",
+      "debut": 2.055,
+      "fin": 2.432
+    },
+    {
+      "mot": "au",
+      "debut": 2.465,
+      "fin": 2.626
+    },
+    {
+      "mot": "marché.",
+      "debut": 2.64,
+      "fin": 3.017
+    },
+    {
+      "mot": "Mardi,",
+      "debut": 3.4,
+      "fin": 3.733
+    },
+    {
+      "mot": "tu",
+      "debut": 3.762,
+      "fin": 3.928
+    },
+    {
+      "mot": "te",
+      "debut": 3.943,
+      "fin": 4.109
+    },
+    {
+      "mot": "demandes",
+      "debut": 4.124,
+      "fin": 4.623
+    },
+    {
+      "mot": "d'où",
+      "debut": 4.666,
+      "fin": 4.888
+    },
+    {
+      "mot": "il",
+      "debut": 4.907,
+      "fin": 5.074
+    },
+    {
+      "mot": "vient.",
+      "debut": 5.088,
+      "fin": 5.421
+    },
+    {
+      "mot": "Mercredi...",
+      "debut": 5.8,
+      "fin": 6.26
+    },
+    {
+      "mot": "personne",
+      "debut": 6.75,
+      "fin": 7.14
+    },
+    {
+      "mot": "ne",
+      "debut": 7.174,
+      "fin": 7.303
+    },
+    {
+      "mot": "sait.",
+      "debut": 7.315,
+      "fin": 7.531
+    },
+    {
+      "mot": "Le",
+      "debut": 10.3,
+      "fin": 10.458
+    },
+    {
+      "mot": "problème,",
+      "debut": 10.472,
+      "fin": 10.947
+    },
+    {
+      "mot": "ce",
+      "debut": 10.988,
+      "fin": 11.147
+    },
+    {
+      "mot": "n'est",
+      "debut": 11.16,
+      "fin": 11.424
+    },
+    {
+      "mot": "pas",
+      "debut": 11.447,
+      "fin": 11.658
+    },
+    {
+      "mot": "le",
+      "debut": 11.676,
+      "fin": 11.835
+    },
+    {
+      "mot": "karité.",
+      "debut": 11.849,
+      "fin": 12.218
+    },
+    {
+      "mot": "C'est",
+      "debut": 12.5,
+      "fin": 12.795
+    },
+    {
+      "mot": "tout",
+      "debut": 12.82,
+      "fin": 13.115
+    },
+    {
+      "mot": "ce",
+      "debut": 13.141,
+      "fin": 13.317
+    },
+    {
+      "mot": "qu'on",
+      "debut": 13.333,
+      "fin": 13.627
+    },
+    {
+      "mot": "ne",
+      "debut": 13.653,
+      "fin": 13.83
+    },
+    {
+      "mot": "te",
+      "debut": 13.845,
+      "fin": 14.022
+    },
+    {
+      "mot": "dit",
+      "debut": 14.037,
+      "fin": 14.273
+    },
+    {
+      "mot": "pas.",
+      "debut": 14.294,
+      "fin": 14.529
+    },
+    {
+      "mot": "D'où",
+      "debut": 14.9,
+      "fin": 15.104
+    },
+    {
+      "mot": "vient",
+      "debut": 15.122,
+      "fin": 15.429
+    },
+    {
+      "mot": "la",
+      "debut": 15.456,
+      "fin": 15.609
+    },
+    {
+      "mot": "noix.",
+      "debut": 15.622,
+      "fin": 15.878
+    },
+    {
+      "mot": "Qui",
+      "debut": 16.2,
+      "fin": 16.384
+    },
+    {
+      "mot": "l'a",
+      "debut": 16.4,
+      "fin": 16.538
+    },
+    {
+      "mot": "transformée.",
+      "debut": 16.55,
+      "fin": 17.102
+    },
+    {
+      "mot": "Et",
+      "debut": 17.4,
+      "fin": 17.538
+    },
+    {
+      "mot": "quand.",
+      "debut": 17.55,
+      "fin": 17.826
+    },
+    {
+      "mot": "Il",
+      "debut": 18.3,
+      "fin": 18.456
+    },
+    {
+      "mot": "est",
+      "debut": 18.47,
+      "fin": 18.678
+    },
+    {
+      "mot": "temps",
+      "debut": 18.696,
+      "fin": 19.008
+    },
+    {
+      "mot": "de",
+      "debut": 19.035,
+      "fin": 19.191
+    },
+    {
+      "mot": "savoir.",
+      "debut": 19.204,
+      "fin": 19.568
+    },
+    {
+      "mot": "Chez",
+      "debut": 21.2,
+      "fin": 21.446
+    },
+    {
+      "mot": "Yéla,",
+      "debut": 21.467,
+      "fin": 21.713
+    },
+    {
+      "mot": "chaque",
+      "debut": 21.735,
+      "fin": 22.079
+    },
+    {
+      "mot": "pot",
+      "debut": 22.109,
+      "fin": 22.306
+    },
+    {
+      "mot": "raconte",
+      "debut": 22.323,
+      "fin": 22.717
+    },
+    {
+      "mot": "son",
+      "debut": 22.751,
+      "fin": 22.948
+    },
+    {
+      "mot": "karité",
+      "debut": 22.965,
+      "fin": 23.31
+    },
+    {
+      "mot": ":",
+      "debut": 23.34,
+      "fin": 23.487
+    },
+    {
+      "mot": "la",
+      "debut": 23.7,
+      "fin": 23.893
+    },
+    {
+      "mot": "ville",
+      "debut": 23.91,
+      "fin": 24.296
+    },
+    {
+      "mot": "de",
+      "debut": 24.33,
+      "fin": 24.523
+    },
+    {
+      "mot": "Korhogo,",
+      "debut": 24.54,
+      "fin": 25.055
+    },
+    {
+      "mot": "les",
+      "debut": 25.3,
+      "fin": 25.47
+    },
+    {
+      "mot": "mains",
+      "debut": 25.485,
+      "fin": 25.741
+    },
+    {
+      "mot": "qui",
+      "debut": 25.763,
+      "fin": 25.933
+    },
+    {
+      "mot": "l'ont",
+      "debut": 25.948,
+      "fin": 26.161
+    },
+    {
+      "mot": "préparé,",
+      "debut": 26.18,
+      "fin": 26.52
+    },
+    {
+      "mot": "la",
+      "debut": 26.75,
+      "fin": 26.888
+    },
+    {
+      "mot": "date",
+      "debut": 26.9,
+      "fin": 27.13
+    },
+    {
+      "mot": "de",
+      "debut": 27.15,
+      "fin": 27.288
+    },
+    {
+      "mot": "fabrication.",
+      "debut": 27.3,
+      "fin": 27.852
+    },
+    {
+      "mot": "Tu",
+      "debut": 28.3,
+      "fin": 28.451
+    },
+    {
+      "mot": "l'ouvres...",
+      "debut": 28.464,
+      "fin": 28.865
+    },
+    {
+      "mot": "tu",
+      "debut": 29.3,
+      "fin": 29.507
+    },
+    {
+      "mot": "sais.",
+      "debut": 29.525,
+      "fin": 29.87
+    },
+    {
+      "mot": "Yéla.",
+      "debut": 30.5,
+      "fin": 30.96
+    },
+    {
+      "mot": "Le",
+      "debut": 31.25,
+      "fin": 31.415
+    },
+    {
+      "mot": "karité",
+      "debut": 31.429,
+      "fin": 31.813
+    },
+    {
+      "mot": "qui",
+      "debut": 31.847,
+      "fin": 32.066
+    },
+    {
+      "mot": "dit",
+      "debut": 32.085,
+      "fin": 32.305
+    },
+    {
+      "mot": "d'où",
+      "debut": 32.324,
+      "fin": 32.544
+    },
+    {
+      "mot": "il",
+      "debut": 32.563,
+      "fin": 32.728
+    },
+    {
+      "mot": "vient.",
+      "debut": 32.742,
+      "fin": 33.071
+    },
+    {
+      "mot": "Découvre",
+      "debut": 33.4,
+      "fin": 33.91
+    },
+    {
+      "mot": "la",
+      "debut": 33.954,
+      "fin": 34.124
+    },
+    {
+      "mot": "boutique",
+      "debut": 34.138,
+      "fin": 34.648
+    },
+    {
+      "mot": "Yéla.",
+      "debut": 34.692,
+      "fin": 34.975
+    }
+  ],
+  "silences": [
+    {
+      "debut": 6.26,
+      "fin": 6.75
+    },
+    {
+      "debut": 7.531,
+      "fin": 10.3
+    },
+    {
+      "debut": 17.826,
+      "fin": 18.3
+    },
+    {
+      "debut": 19.568,
+      "fin": 21.2
+    },
+    {
+      "debut": 27.852,
+      "fin": 28.3
+    },
+    {
+      "debut": 28.865,
+      "fin": 29.3
+    },
+    {
+      "debut": 29.87,
+      "fin": 30.5
+    }
+  ]
+}
